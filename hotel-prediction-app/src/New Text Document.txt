@@ -1,0 +1,33 @@
+/* styles.css */
+
+.eda-page {
+  padding: 20px;
+}
+
+.eda-images-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.eda-image {
+  margin: 10px;
+  text-align: center;
+}
+
+.eda-image img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.eda-image img:hover {
+  transform: scale(1.1);
+}
+
+.eda-image p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}

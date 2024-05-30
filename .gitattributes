@@ -1,0 +1,6 @@
+models/model_rd.joblib filter=lfs diff=lfs merge=lfs -text
+models/model_dtc.joblib filter=lfs diff=lfs merge=lfs -text
+models/model_knn.joblib filter=lfs diff=lfs merge=lfs -text
+models/model_lr.joblib filter=lfs diff=lfs merge=lfs -text
+models/model_nb.joblib filter=lfs diff=lfs merge=lfs -text
+models/model_svc.joblib filter=lfs diff=lfs merge=lfs -text
